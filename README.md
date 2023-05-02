@@ -1,6 +1,6 @@
 # langchain-java
 
-`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT-4.
+`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT.
 
 ``TJava
 
@@ -10,7 +10,7 @@
 
 ## Features
 
-- Interact with large language models like GPT-4
+- Interact with large language models like GPT
 - 
 - 
 - ``DJava
@@ -44,7 +44,7 @@ dependencies {
 
 ## Usage
 
-Here's a simple example of using langchain-java to interact with GPT-4:
+Here's a simple example of using langchain-java to interact with GPT:
 
 ```java
 import com.zakynthos.langchain.*;
