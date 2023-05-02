@@ -7,11 +7,7 @@
 ## Features
 
 - Interact with large language models like GPT
-- 
-- 
-- ``DJava
-- 
-- ```fine and apply prompt templates
+- Define and apply prompt templates
 - Build chains of operations for processing input data and generating responses
 - Async support for concurrent execution of tasks
 - Designed to be language-translatable to Python LangChain
