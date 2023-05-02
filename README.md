@@ -1,6 +1,6 @@
 # langchain-java
 
-`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT-3. This library allows you to build and execute chains of operations on LLMs, such as processing input data, applying templates, and generating responses. `langchain-java` is inspired by the Python LangChain library and aims to provide similar functionality with the added benefits of the Java ecosystem.
+`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT-4. This library allows you to build and execute chains of operations on LLMs, such as processing input data, applying templates, and generating responses. `langchain-java` is inspired by the Python LangChain library and aims to provide similar functionality with the added benefits of the Java ecosystem.
 
 `com.zakynthos.langchain` is the main package of the `langchain-java` library.
 
@@ -40,7 +40,7 @@ dependencies {
 
 ## Usage
 
-Here's a simple example of using langchain-java to interact with GPT:
+Here's a simple example of using langchain-java to interact with GPT-4:
 
 ```java
 import com.zakynthos.langchain.*;
@@ -49,7 +49,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        LanguageModel languageModel = new GPT3LanguageModel();
+        LanguageModel languageModel = new GPT4LanguageModel();
         Map<String, String> inputVariables = new HashMap<>();
         inputVariables.put("product", "");
         PromptTemplate promptTemplate = new PromptTemplate("What is a good name for a company that makes {%s}?", inputVariables);
@@ -64,7 +64,7 @@ public class Main {
 }
 ```
 
-This example demonstrates how to create a GPT3LanguageModel, PromptTemplate, and LLMChain to process input data and generate a response from GPT-3. Replace the API_KEY constant in the GPT3LanguageModel class with your actual GPT-3 API key.
+This example demonstrates how to create a GPT4LanguageModel, PromptTemplate, and LLMChain to process input data and generate a response from GPT-4. Replace the API_KEY constant in the GPT4LanguageModel class with your actual GPT-4 API key.
 
 ### License
 
