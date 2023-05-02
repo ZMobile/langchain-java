@@ -1,10 +1,6 @@
 # langchain-java
 
-`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT.
-
-``TJava
-
-```is library allows you to build and execute chains of operations on LLMs, such as processing input data, applying templates, and generating responses. `langchain-java` is inspired by the Python LangChain library and aims to provide similar functionality with the added benefits of the Java ecosystem.
+`langchain-java` is a Java-based library designed to interact with large language models (LLMs) like OpenAI's GPT-3. This library allows you to build and execute chains of operations on LLMs, such as processing input data, applying templates, and generating responses. `langchain-java` is inspired by the Python LangChain library and aims to provide similar functionality with the added benefits of the Java ecosystem.
 
 `com.zakynthos.langchain` is the main package of the `langchain-java` library.
 
